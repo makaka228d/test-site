@@ -1,0 +1,109 @@
+.history {
+  width: 1200px;
+  margin: auto;
+  margin-top: 50px;
+  height: 850px;
+}
+h2 {
+  width: 900px;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 50px;
+  text-align: center;
+  color: #ed8c0c;
+  font-family: 'Russo One', sans-serif;
+  letter-spacing: 2px;
+  font-size: 2.2em;
+}
+.history p {
+  width: 800px;
+  margin: 0;
+  color: #0c2458;
+  font-weight: bold;
+  font-size: 1.17em;
+  padding: 10px 20px;
+  margin: auto;
+  text-align: justify;
+}
+
+.history-directory {
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.history-directory ul {
+  color: #0c2458;
+  font-weight: bold;
+  font-size: 1.2em;
+  width: 200px;
+  margin: auto;
+}
+.history-directory li {
+  list-style: none;
+  margin-bottom: 5px;
+}
+.history-directory li::before {
+    content: '\2713';
+    margin-right: 10px;
+    font-family: 'Russo One', sans-serif;
+    font-weight: bold;
+    color: #ed8c0c;
+}
+
+
+
+.history-2 {
+  padding-top: 50px;
+  margin-bottom: 50px;
+}
+.history-2 p {
+  color: #0c2458;
+  font-weight: bold;
+  font-size: 1.2em;
+  width: 800px;
+  margin: auto;
+  text-align: justify;
+  margin-bottom: 20px;
+}
+.history-2 li::before {
+    content: '\2713';
+    margin-right: 10px;
+    font-family: 'Russo One', sans-serif;
+    font-weight: bold;
+    color: #ed8c0c;
+}
+.history-2 li {
+  list-style: none;
+}
+.history-2 ul {
+  color: #0c2458;
+  font-weight: bold;
+  font-size: 1.2em;
+  width: 600px;
+  margin: auto;
+  margin-bottom: 70px;
+}
+.history-2 h2 {
+  font-size: 1.6em;
+  width: 700px;
+  margin-top: 70px;
+  margin-bottom: 20px;
+}
+
+
+
+.memoreal-desk {
+  margin-top: 50px;
+}
+.memoreal-desk p {
+  width: 800px;
+  margin: auto;
+  color: #0c2458;
+  font-weight: bold;
+  font-size: 1.2em;
+  text-align: justify;
+  margin-bottom: 30px;
+}
+.memoreal-desk span {
+  color: #426ac2;
+}

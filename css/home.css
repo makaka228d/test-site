@@ -1,0 +1,189 @@
+.for-parents-home-box {
+ height: 400px;
+ margin-bottom: 50px;
+}
+.for-parents-home-box div {
+  background-color: #0c2458;
+  border-radius: 30px;
+  width: 700px;
+  height: 290px;
+  margin-top: 75px;
+  float: left;
+  margin-left: 150px;
+}
+.for-parents-home-box h2 {
+  font-family: 'Russo One', sans-serif;
+  font-size: 1.8em;
+  text-align: center;
+  margin-top: 30px;
+  color: #ed8c0c;
+}
+.for-parents-home-box p {
+  width: 600px;
+  font-size: 1.1em;
+  margin: auto;
+  letter-spacing: 1px;
+  color: white;
+  line-height: 25px;
+}
+.for-parents-home-box div p a {
+color: #426ac2;
+font-size: 1.06em;
+text-decoration: none;
+font-family:  'Russo One', sans-serif;
+}
+#e-book-home {
+  float: right;
+  margin-top: 35px;
+  margin-right: 200px;
+}
+
+
+
+
+.about-school-home {
+  height: 300px;
+}
+.about-school-home h2 {
+  float: left;
+  color: #0c2458;
+  font-family: 'Russo One', sans-serif;
+  font-size: 1.85em;
+  text-align: left;
+  letter-spacing: 1px;
+  line-height: 35px;
+  margin-bottom: 0;
+  margin-top: 80px;
+  margin-left: 80px;
+}
+.about-school-home img {
+  width: 700px;
+  float: right;
+  filter: drop-shadow(15px 15px 30px gray);
+  margin-right: 80px;
+}
+
+
+
+
+
+
+
+.circle-about-home-div{
+
+  height: 240px;
+}
+.circle-about-home {
+  width: 200px;
+  height: 200px;
+  padding: 0;
+  margin: 0;
+  margin-top: 20px;
+  margin-left: 65px;
+  border-radius: 50%;
+  box-shadow: 3px 3px 7px gray;
+  float: left;
+  color: #2f4363;
+  text-align: center;
+  font-family: 'Russo One', sans-serif;
+  font-size: 1.3em;
+  vertical-align: middle;
+  display: flex;
+ justify-content: center;
+ align-items: center;
+}
+.circle-about-home-div{
+margin-top: 50px;
+  height: 240px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.task-school-home {
+  margin-top: 50px;
+}
+#task-school-p {
+  width: 900px;
+  margin: auto;
+  font-size: 1.4em;
+  font-weight: bold;
+}
+#task-school-p a {
+  font-family: 'Russo One', sans-serif;
+  color: #0c2458;
+}
+.task-school-home div {
+  border-radius: 20px;
+  margin: auto;
+  padding: 15px 0;
+  margin-top: 50px;
+  box-shadow: 3px 3px 7px gray;
+  width: 1100px;
+  background-color: #0c2458;
+  padding-bottom: 50px;
+}
+
+.task-school-home div p {
+  text-align: center;
+  font-family: 'Russo One', sans-serif;
+  font-size: 1.7em;
+  color: #ed8c0c;
+}
+.task-school-home div ul li::before {
+    content: '\2713';
+    margin-right: 10px;
+    font-family: 'Russo One', sans-serif;
+    font-weight: bold;
+}
+.task-school-home div ul li {
+  list-style: none;
+  font-weight: bold;
+  color: white;
+  letter-spacing: 1px;
+  line-height: 30px;
+}
+.task-school-home div ul {
+    width: 900px;
+    margin: auto;
+}
+
+
+
+
+
+.circle-about-home-2 {
+  width: 200px;
+  height: 200px;
+  padding: 0;
+  margin: 0;
+  margin-top: 20px;
+  margin-left: 65px;
+  border-radius: 50%;
+  box-shadow: 3px 3px 7px gray;
+  background-color: #2f4363;
+  color: #bababa;
+  float: left;
+  text-align: center;
+  font-family: 'Russo One', sans-serif;
+  font-size: 1.3em;
+  vertical-align: middle;
+  display: flex;
+ justify-content: center;
+ align-items: center;
+}
+.circle-about-home-2 span {
+font-size: 1.55em;
+color: white;
+}
+.circle-about-home-div-2{
+margin-top: 50px;
+  height: 240px;
+}

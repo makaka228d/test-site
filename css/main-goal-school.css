@@ -1,0 +1,116 @@
+.main-target {
+  height: 500px;
+  position: relative;
+  margin-top: 100px;
+}
+.main-target h2 {
+  color: #ed8c0c;
+  font-family: 'Russo One', sans-serif;
+  letter-spacing: 2px;
+  font-size: 2.2em;
+  width: 450px;
+  text-align: center;
+  margin-left: 200px;
+  float: left;
+}
+.main-target p {
+color: #0c2458;
+font-weight: bold;
+width: 550px;
+font-size: 1.2em;
+letter-spacing: 1px;
+margin: 0;
+margin-bottom: 15px;
+line-height: 24px;
+margin-left: 200px;
+float: left;
+clear: left;
+}
+.main-target p:before {
+    content: '\2713';
+    color: #ed8c0c;
+    margin-right: 10px;
+    font-family: 'Russo One', sans-serif;
+    font-weight: bold;
+  }
+.main-target img {
+  height: 400px;
+  top: 15px;
+  right: 120px;
+  position: absolute;
+}
+
+
+
+
+.main-improve {
+  width: 800px;
+  margin: auto;
+  border-radius: 25px;
+  box-shadow: 5px 5px 10px silver;
+  padding: 30px 0;
+  margin-top: 50px;
+}
+.main-improve h2 {
+  text-align: center;
+  color: #ed8c0c;
+  font-family: 'Russo One', sans-serif;
+  font-size: 1.8em;
+}
+.main-improve p {
+  margin: auto;
+  width: 600px;
+  color: #0c2458;
+  margin-bottom: 10px;
+  font-weight: bold;
+  font-size: 1.1em;
+}
+.main-improve p:before {
+    content: '\2713';
+    color: #ed8c0c;
+    margin-right: 5px;
+    font-family: 'Russo One', sans-serif;
+    font-weight: bold;
+  }
+
+
+
+
+.educational-reference {
+  height: 350px;
+  margin-top: 100px;
+}
+.educational-reference h2 {
+  text-align: center;
+  color: #ed8c0c;
+  font-family: 'Russo One', sans-serif;
+  font-size: 2.2em;
+}
+.educational-reference div {
+  height: 250px;
+  width: 650px;
+  margin: auto;
+}
+.educational-reference p {
+  height: 200px;
+  width: 250px;
+  box-shadow: 5px 5px 8px silver;
+  color: white;
+  text-align: center;
+  font-family: 'Russo One', sans-serif;
+  font-size: 1.2em;
+  vertical-align: middle;
+  display: flex;
+ justify-content: center;
+ align-items: center;
+ padding: 10px 30px;
+ background-color: #0c2458;
+}
+#educational-reference-p1 {
+  float: left;
+  border-radius: 20px 50%;
+}
+#educational-reference-p2 {
+  float: right;
+  border-radius: 50% 20px;
+}

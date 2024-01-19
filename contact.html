@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="ukr">
+<head>
+  <meta charset="UTF-8">
+  <title>Home</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/contact.css">
+</head>
+<body>
+
+
+
+  <header>
+    <div>
+      <a><img class="img-nav-school" src="img/school.png"></a>
+    </div>
+    <nav>
+      <ul>
+        <li id="nav-htop1" class="nav-header-top"><a href="index.html">Головна</a></li>
+        <li id="nav-htop2" class="nav-header-top"><a href="#">Карта сайту</a></li>
+        <li id="nav-htop3" class="nav-header-top"><a href="contact.html">Контакти</a></li>
+      </ul>
+    </nav>
+    <h1><a href="index.html">Харківський Ліцей №114 Харківської Міської Ради</a></h1>
+
+    <div id="search-area">
+      <input type="text" id="search-box" placeholder="Пошук...">
+  <button onclick="searchText()"><img src="img/search.png"></button>
+    </div>
+
+  <div class="nav-header-bottom">
+    <nav>
+      <ul class="menu">
+        <li>
+            <a href="#">Інформація про заклад освіти</a>
+              <ul class="sub-menu">
+                  <li class="nav-header-bottom-li"><a class="nav-header-a" href="pedagog-collective.html">Педагогічний колекти</a></li>
+                  <li class="nav-header-bottom-li"><a class="nav-header-a" href="shool-documents.html">Шкільні документи</a></li>
+                  <li class="nav-header-bottom-li"><a class="nav-header-a" href="main-goal-school.html">Основні напрями діяльності закладу освіти</a></li>
+                  <li class="nav-header-bottom-li"><a class="nav-header-a" href="new-year-goal.html">Пріоритетні завдання, цілі розвитку ліцею в новому навчальному році</a></li>
+                  <li class="nav-header-bottom-li"><a class="nav-header-a" href="school-history.html">Історія</a></li>
+                  <li class="nav-header-bottom-li"><a class="nav-header-a" href="contact.html">Контакти</a></li>
+                </ul>
+        </li>
+        <li>
+            <a href="#">Адміністрація</a>
+              <ul class="sub-menu">
+                  <li class="nav-header-bottom-li"><a class="nav-header-a" href="contact.html#graphik">Графік прийому громадян адміністрацією ХЛ №114</a></li>
+                  <li class="nav-header-bottom-li"><a class="nav-header-a" href="#">Доступ до публічної інформації</a></li>
+                  <li class="nav-header-bottom-li"><a class="nav-header-a" href="#">Новини законодавства</a></li>
+                  <li class="nav-header-bottom-li"><a class="nav-header-a" href="#">Конституційна реформа</a></li>
+                  <li class="nav-header-bottom-li"><a class="nav-header-a" href="#">Антикорупційна діяльність</a></li>
+              </ul>
+        </li>
+        <li>
+            <a href="#">Дистанційне навчання під час воєнного стану</a>
+              <ul class="sub-menu">
+                <li class="nav-header-bottom-li"><a class="nav-header-a" target="_blank" href="https://www.human.ua/">Human-електронний щоденник</a></li>
+                <li class="nav-header-bottom-li"><a class="nav-header-a" href="#">Електронні версії підручників</a></li>
+                <li class="nav-header-bottom-li"><a class="nav-header-a" href="#">Всеукраїнська школа онлайн</a></li>
+                <li class="nav-header-bottom-li"><a class="nav-header-a" href="#">Правила поведінки для учнів під час дистанційного навчання</a></li>
+                <li class="nav-header-bottom-li"><a class="nav-header-a" href="#">Формат здійснення зворотнього зв'язку</a></li>
+              </ul>
+        </li>
+        <li>
+            <a href="#">Організація освітнього процесу</a>
+              <ul class="sub-menu">
+                <li class="nav-header-bottom-li"><a class="nav-header-a" href="#">Структура 2023/2024 навчального року</a></li>
+                <li class="nav-header-bottom-li"><a class="nav-header-a" href="#">Розклад</a></li>
+                <li class="nav-header-bottom-li"><a class="nav-header-a" href="#">Освітня програма</a></li>
+                <li class="nav-header-bottom-li"><a class="nav-header-a" href="#">Навчальний план</a></li>
+                <li class="nav-header-bottom-li"><a class="nav-header-a" href="#">ДПА</a></li>
+                <li class="nav-header-bottom-li"><a class="nav-header-a" href="#">Моніторинг якості освіти</a></li>
+                <li class="nav-header-bottom-li"><a class="nav-header-a" href="#">Вибір підручників</a></li>
+                <li class="nav-header-bottom-li"><a class="nav-header-a" href="#">Обдарованість</a></li>
+                <li class="nav-header-bottom-li"><a class="nav-header-a" href="#">Робота шкільного Євроклубу</a></li>
+                <li class="nav-header-bottom-li"><a class="nav-header-a" href="#">Класні сторінки</a></li>
+                <li class="nav-header-bottom-li"><a class="nav-header-a" href="#">Виховна робота</a></li>
+                <li class="nav-header-bottom-li"><a class="nav-header-a" href="#">Школа сприяння здоров'ю</a></li>
+                <li class="nav-header-bottom-li"><a class="nav-header-a" href="#">Інклюзивна освіта</a></li>
+                <li class="nav-header-bottom-li"><a class="nav-header-a" href="#">Співпраця із ЗВО</a></li>
+              </ul>
+        </li>
+        <li>
+            <a href="#">Бібліотека ліцею</a>
+              <ul class="sub-menu">
+                <li class="nav-header-bottom-li"><a class="nav-header-a" href="#">Електронні версії підручників</a></li>
+                <li class="nav-header-bottom-li"><a class="nav-header-a" href="#">Візитка бібліотеки</a></li>
+                <li class="nav-header-bottom-li"><a class="nav-header-a" href="#">Нові надходження</a></li>
+                <li class="nav-header-bottom-li"><a class="nav-header-a" href="#">Календар пам'ятних дат</a></li>
+                <li class="nav-header-bottom-li"><a class="nav-header-a" href="#">Історія бібліотеки закладу освіти</a></li>
+                <li class="nav-header-bottom-li"><a class="nav-header-a" href="#">Правила користування бібліотекою</a></li>
+                <li class="nav-header-bottom-li"><a class="nav-header-a" href="#">Творчість наших читачів</a></li>
+                <li class="nav-header-bottom-li"><a class="nav-header-a" href="#">Література рідного краю</a></li>
+                <li class="nav-header-bottom-li"><a class="nav-header-a" href="#">Бібліотекарю закладу освіти</a></li>
+              </ul>
+        </li>
+        <li>
+            <a href="#">Дистанційне навчання в період воєнного стану</a>
+              <ul class="sub-menu">
+                <li class="nav-header-bottom-li"><a class="nav-header-a" href="#">Human - компанія освітніх технологій</a></li>
+                <li class="nav-header-bottom-li"><a class="nav-header-a" href="#">Електронні версії підручників</a></li>
+                <li class="nav-header-bottom-li"><a class="nav-header-a" href="#">Платформи для додаткового навчання</a></li>
+                <li class="nav-header-bottom-li"><a class="nav-header-a" href="#">Правила безпечного користування Інтернетом</a></li>
+                <li class="nav-header-bottom-li"><a class="nav-header-a" href="#">Правила поведінки для учнів під час дистанційного уроку</a></li>
+                <li class="nav-header-bottom-li"><a class="nav-header-a" href="#">Рекомендації батькам під час дистанційного навчання</a></li>
+                <li class="nav-header-bottom-li"><a class="nav-header-a" href="#">Корисні інтернет-ресурси</a></li>
+                <li class="nav-header-bottom-li"><a class="nav-header-a" href="#">Формат здійснення зворотного зв'язку </a></li>
+              </ul>
+        </li>
+        <li><a href="#">Прозорість та інформаційна відкритість закладу освіти</a></li>
+        <li>
+            <a href="#">Розділ для учнів та батьків</a>
+              <ul class="sub-menu">
+                <li class="nav-header-bottom-li"><a class="nav-header-a" href="#">Дистанційне навчання</a></li>
+                <li class="nav-header-bottom-li"><a class="nav-header-a" href="#">Довідка про реєстрацію місця проживання дитини онлайн</a></li>
+                <li class="nav-header-bottom-li"><a class="nav-header-a" href="#">Батьківська сторінка</a></li>
+                <li class="nav-header-bottom-li"><a class="nav-header-a" href="#">Віртуальна подорож закладом освіти</a></li>
+              </ul>
+        </li>
+      </ul>
+    </nav>
+  </div>
+  </header>
+
+
+  <main>
+
+    <div class="contact-box">
+      <div>
+      <p id="p1"><span>Приходьте</span><br>  пр.Гагаріна 157, <br> м.Харків, 61124</p>
+      <p id="p2"><span>Телефонуйте</span><br>+38(057) 725-84-25</p>
+      <p id="p3"><span>Пишіть</span><br>sch114@kharkivosvita.net.ua</p>
+
+      <img id="im1" src="img/phone-contact.png" alt="Phone">
+      <img id="im2" src="img/location-contact.png" alt="Location">
+      <img id="im3" src="img/send-contact.svg" alt="Send">
+      </div>
+    <iframe class="contact-map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2567.0117582985076!2d36.25789767602947!3d49.95488192292257!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x41270a90a87665c3%3A0xbcb3a7bdee0e2420!2z0KXQsNGA0YzQutC-0LLRgdC60LDRjyDRgdC_0LXRhtC40LDQu9C40LfQuNGA0L7QstCw0L3QvdCw0Y8g0YjQutC-0LvQsCDihJYxMTQ!5e0!3m2!1sru!2spl!4v1705494556247!5m2!1sru!2spl" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+    </iframe>
+    </div>
+
+    <hr>
+
+    <div id="graphik" class="reception-table-contact">
+
+      <h2>Графік прийому громадян адміністрацією ХЛ №114</h2>
+
+      <div>
+      <p>Ісаєва В.В.,<br>
+        директор школи</p>
+        <table>
+          <tr>
+            <th>Середа</th>
+            <td>15.00-16.00</td>
+          </tr>
+          <tr class="tr-contact-2">
+            <th>П`ятниця</th>
+            <td>15.00-16.00</td>
+          </tr>
+          </table>
+          </div>
+
+
+          <div>
+          <p>Балашова І.С.,<br>
+            заступник директора з НВР</p>
+            <table>
+              <tr>
+                <th>п`ятниця</th>
+                <td>8.00-10.00</td>
+              </tr>
+              <tr class="tr-contact-2">
+                <th>П`ятниця</th>
+                <td>15.00-16.00</td>
+              </tr>
+              </table>
+              </div>
+
+
+              <div>
+              <p>Демченко О.Г.,<br>
+                заступник директора з НВР</p>
+                <table>
+                  <tr>
+                    <th>четвер</th>
+                    <td>8.00-10.00</td>
+                  </tr>
+                  <tr class="tr-contact-2">
+                    <th>четвер</th>
+                    <td>13.00-15.00</td>
+                  </tr>
+                  </table>
+                  </div>
+
+
+                  <div>
+                  <p>Сергеєва О.О.,<br>
+                    заступник директора з НВР</p>
+                    <table>
+                      <tr>
+                        <th>понеділок</th>
+                        <td>8.00-10.00</td>
+                      </tr>
+                      <tr class="tr-contact-2">
+                        <th>понеділок</th>
+                        <td>15.00-16.00</td>
+                      </tr>
+                      </table>
+                      </div>
+
+
+                      <div>
+                      <p>Каменєва Н.І.,<br>
+                        заступник директора з НВР</p>
+                        <table>
+                          <tr>
+                            <th>Середа</th>
+                            <td>8.00-10.00</td>
+                          </tr>
+                          <tr class="tr-contact-2">
+                            <th>середа</th>
+                            <td>15.30-16.30</td>
+                          </tr>
+                          </table>
+                          </div>
+
+
+                          <div>
+                          <p>Костенко Н.О.,<br>
+                            заступник директора з АГЧ</p>
+                            <table>
+                              <tr>
+                                <th>вівторок</th>
+                                <td>9.00-11.00</td>
+                              </tr>
+                              <tr class="tr-contact-2">
+                                <th>четвер</th>
+                                <td>15.30-16.30</td>
+                              </tr>
+                              </table>
+                              </div>
+    </div>
+
+
+
+
+
+
+
+<script>
+
+function searchText() {
+  var searchBox = document.getElementById('search-box');
+  var searchText = searchBox.value;
+
+  if (searchText) {
+    if (window.find && window.getSelection) {
+      document.designMode = "on";
+      var sel = window.getSelection();
+      sel.collapse(document.body, 0);
+
+      while (window.find(searchText)) {
+        document.execCommand("HiliteColor", false, "yellow");
+        sel.collapseToEnd();
+      }
+      document.designMode = "off";
+
+      // Установка таймера для сброса выделения через 10 секунд
+      setTimeout(removeHighlights, 3000); // 10000 миллисекунд = 10 секунд
+    } else {
+      console.warn("Your browser does not support this example's search functionality.");
+    }
+  } else {
+    alert('Пожалуйста, введите текст для поиска.');
+  }
+}
+
+function removeHighlights() {
+  // Замените '.highlight' на ваш селектор подсветки, если он другой
+  var highlights = document.querySelectorAll("span[style*='background-color: yellow']");
+  highlights.forEach(function(highlight) {
+    // Восстановление текста без форматирования
+    highlight.outerHTML = highlight.innerHTML;
+  });
+}
+
+document.getElementById('search-box').oninput = function() {
+  removeHighlights();
+};
+
+</script>
+
+
+  </main>
+
+
+  <footer>
+
+    <div class="kontact-footer">
+      <p><span>Адрес:</span><br>  пр.Гагаріна 157, <br> м.Харків, 61124</p>
+    </div>
+    <div class="kontact-footer">
+      <p><span>Контакти:</span><br> телефон: (057) 725-84-25 <br> sch114@kharkivosvita.net.ua</p>
+    </div>
+
+    <iframe class="map-footer" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2567.0117582985076!2d36.25789767602947!3d49.95488192292257!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x41270a90a87665c3%3A0xbcb3a7bdee0e2420!2z0KXQsNGA0YzQutC-0LLRgdC60LDRjyDRgdC_0LXRhtC40LDQu9C40LfQuNGA0L7QstCw0L3QvdCw0Y8g0YjQutC-0LvQsCDihJYxMTQ!5e0!3m2!1sru!2spl!4v1705494556247!5m2!1sru!2spl" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+    </iframe>
+  </footer>
+  <div class="after-footer">
+    <p id="after-footer-p">© 2024 Нічьо не захищено.</p>
+    <p><span>Розробив:</span> Максим Зінчук</p>
+  </div>
+
+
+
+</body>
+</html>
